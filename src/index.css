@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: #23252c;
+  font-family: "Inter", sans-serif;
+}
+.container {
+  max-width: 350px;
+  margin: 0 auto;
+
+  border-radius: 10px;
+  background-color: #1a1b21;
+  overflow: hidden;
+}
+.info {
+  margin-bottom: 30px;
+}
+.info-container {
+  max-width: 350px;
+  height: 350px;
+  overflow: hidden;
+}
+.info-container > img {
+  /* display: block; */
+  max-width: 350px;
+  width: 100%;
+}
+.info-text {
+  padding: 20px 35px;
+  text-align: center;
+}
+.info-text_title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+
+  color: #ffffff;
+}
+.info-text_career {
+  margin-top: 6px;
+  margin-bottom: 0px;
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 15px;
+  color: #f3bf99;
+}
+.info-text_site {
+  /* margin-top:15px; */
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #f5f5f5;
+}
+.info-link {
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
+}
+.info-link-mail,
+.info-link-linkedin {
+  text-decoration: none;
+  margin: 0;
+  color: #374151;
+  width: 120px;
+  height: 35px;
+  border-radius: 0.2em;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 10px 20px;
+  background: white;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+.info-link-linkedin {
+  background: #5093e2;
+  color: white;
+}
+.info-link-mail > img {
+  width: 25px;
+  align-self: center;
+}
+
+.info-link-linkedin > img {
+  /* border: 1px solid red; */
+  background: black;
+  width: 25px;
+  align-self: center;
+}
+
+.about,
+.interest {
+  padding: 0 35px;
+  color: #f5f5f5;
+  margin-bottom: 30px;
+}
+.about h3,
+.interest h3 {
+  font-weight: 700;
+  font-size: 16px;
+}
+.about p,
+.interest p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #dcdcdc;
+}
+.footer {
+  background-color: #161619;
+  padding: 20px 45px;
+}
+.footer > ul {
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+}
+.footer > ul > li {
+  margin: 0;
+  list-style-type: none;
+}
+
+.footer > ul > li a img {
+  width: 30px;
+}
